@@ -1,0 +1,2 @@
+# mail
+Self-Hosted Email
