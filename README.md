@@ -75,7 +75,7 @@ $ ssh -i "my-key-pair.pem" ec2-user@box.makari.io
 $ sudo su
 $ adduser jackson
 $ usermod -aG sudo jackson
-$ cp -r ~./ssh /home/jackson
+$ cp -r ~/.ssh /home/jackson
 $ chown jackson:jackson /home/jackson
 $ exit
 $ ssh -i "my-key-pair.pem" jackson@box.makari.io
